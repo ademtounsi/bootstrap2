@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-color:blue;
+
+}
+
+.title {
+    text-align: center; 
+    color: white ;
+    font-size: 4vw ;
+}
+.nav{
+    background-color: red;
+}
+
+.brown{
+    background-color: red;
+}
+
+.navch{
+    text-align: center ;
+    color: white ;
+    font-size: 3vw;
+}
+.firstcourse{
+    width:80%;
+    margin:5%;
+}
+.course{
+     height: max-content;
+    background-color:blue;
+}
+.articles{
+    height:300px;
+    background-color: red ;
+}
+.skills{
+    height: 300px ;
+    background-color: green;
+}
+.img1{
+    width:100%;
+   
+}
+@media only screen and (max-width:767px)
+{
+    .flexy{
+        flex-direction: row;
+    }
+}
